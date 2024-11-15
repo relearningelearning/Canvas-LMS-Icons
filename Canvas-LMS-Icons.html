@@ -1,0 +1,2719 @@
+<section id="ToC">
+  <h3>Canvas LMS Icons Table of Contents</h3>
+  <p>Source: <a href="#" target="_blank"> Github - Canvas LMS Icons</a>.</p>
+
+  <ul style="column-count: 2;">
+      <li><a href="#Introduction">Canvas LMS Icons</a></li>
+      
+      <li><a href="#Examples">Examples</a></li>
+      <li><a href="#Icons">Icons</a></li>
+      
+      <li><a href="#License">License</a></li>
+  </ul>
+  <hr />
+  <br /> 
+</section>
+
+<section id="Introduction">
+    <h2><i class="icon-announcement"></i> Canvas System Icons</h2>
+    <p>The following icons are pulled from the Canvas LMS. This HTML code resource is intended to allow users of the Canvas LMS to effectively identify and leverage Canvas icons within their eLearning course sites.</p>
+    <p>Be mindful that these icons do not have any contextual value. If these icons are being used independently have have interactive and/or contextual value, consider using <code>role="img" aria-description="DESCRIBE THE ACTION WITH THE ICON"</code>. If these icons can be ignored by screen readers, include <code>aria-hidden="true"</code> to hide the element from screen readers.</p>    
+  <hr>
+</section>
+
+<section id="Examples">
+  <h3><i class="icon-flag icon-Solid" aria-hidden="true"></i> Examples Using Icons</h3>
+  <p>
+    The <code>&lt;i&gt;</code> element is used to display icons from the Canvas Icon library by combining it with specific CSS classes that reference the desired icon. Although <code>&lt;i&gt;</code> originally represented "italic" text, it's commonly used for icons due to its semantic flexibility and lightweight HTML structure.
+  </p>
+
+  <h4>Icon in a Heading Example</h4>
+
+    <table style="width: 100%">
+      <caption>
+        Heading with an Icon Example
+      </caption>
+      <thead>
+        <tr>
+          <th style="width: 50%" scope="col">HTML:</th>
+          <th scope="col">Result:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <code>
+              &lt;h3&gt;<br />
+              &nbsp;&nbsp;&lt;i class="icon-flag icon-Solid" aria-hidden="true"&gt;&lt;/i&gt; Examples Using Icons<br />
+              &lt;/h3&gt;
+            </code>
+          </td>
+          <td>
+            <h3>
+                <i class="icon-flag icon-Solid" aria-hidden="true"></i> Examples Using Icons
+            </h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </code>
+
+  <p><strong>Explanation:</strong></p>
+  <ul>
+    <li>
+      <strong><code>&lt;i&gt;</code> Tag</strong>: The
+      <code>&lt;i&gt;</code> element holds the icon and provides a way to style it
+      with CSS.
+    </li>
+    <li>
+      <strong><code>icon-*</code> Class</strong>: This class call that
+      initiates the icon library, allowing other icon-specific classes to work.
+    </li>
+    <li>
+        <strong><code>icon-flag</code> Class</strong>: Specifies the exact icon (in
+        this case, a flag). Each icon has a unique class, like
+        <code>icon-alerts</code>, <code>icon-quiz</code>, etc.
+      </li>
+    <li>
+      <strong><code>icon-Solid</code> Class</strong>: For each icon, there is a companion solid or filled icon. Calling <code>icon-Solid</code> Class instructs the browser to use the filled icon.
+    </li>
+    <li>
+      <strong><code>aria-hidden="true"</code></strong>: Hides the icon from screen readers when it's purely decorative. This
+      improves accessibility, as screen readers won't attempt to interpret
+      non-essential icons.
+    </li>
+  </ul>
+
+  <h4>Icon in a Button</h4>
+  <table style="width: 100%">
+    <caption>
+      Button with Icon Example
+    </caption>
+    <thead>
+      <tr>
+        <th style="width: 50%" scope="col">HTML:</th>
+        <th scope="col">Result:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <code>
+            &lt;a href="#" class="btn btn-primary"&gt;<br />
+            &nbsp;&nbsp;&lt;i class="icon-like" aria-hidden="true"&gt;&lt;/i&gt; Like<br />
+            &lt;/a&gt;
+          </code>
+        </td>
+        <td>
+          <a href="#" class="btn btn-primary">
+            <i class="icon-like" aria-hidden="true"></i> Like
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Explanation:</strong></p>
+  <ul>
+    <li>
+      <strong>Button with Icon</strong>: By embedding the
+      <code>&lt;i&gt;</code> element within a button, you add visual context, such
+      as a thumbs-up, which is immediately recognizable as a "Like" action.
+    </li>
+    <li>
+      <strong>Positioning</strong>: Placing the <code>&lt;i&gt;</code> element
+      before the text aligns the icon to the left of the button label.
+    </li>
+    <li>
+      <strong>Bootstrap Integration</strong>: The button uses the
+      <code>btn btn-primary</code> classes to apply Bootstrap's primary button
+      styling, with the Canvas icon enhancing its visual appeal and
+      interactivity.
+    </li>
+  </ul>
+
+  <hr>
+
+  <h4>Practical Use</h4>
+  <p>
+    Using icons with <code>&lt;i&gt;</code> elements enhances user interfaces by
+    adding easily recognizable symbols, improving clarity, and often making
+    interfaces feel more modern and polished. The combination of Bootstrap and
+    the Canvas icon set provides a cohesive and visually appealing user experience.
+  </p>
+
+  <p>
+    This approach can be applied broadly, from buttons and headers to navigation
+    elements, as it keeps the HTML lightweight and ensures icons are easily
+    customizable via CSS.
+  </p>
+
+  <hr />
+</section>
+
+<section id="Icons">
+    <table class="table table-striped table-hover">
+        <caption>Icon List</caption>
+        <thead>
+            <tr>
+                <th scope="col" width="15%">Icon Name</th>
+                <th scope="col" width="10%">Icon</th>
+                <th scope="col">Code</th>
+                <th scope="col" width="10%">Solid</th>
+                <th scope="col">Solid Code</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>icon-Arc</td>
+                <td><i class="icon-Arc"></i></td>
+                <td><code>&lt;i class="icon-Arc"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-Arc icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-Arc icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-a11y</td>
+                <td><i class="icon-a11y"></i></td>
+                <td><code>&lt;i class="icon-a11y"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-a11y icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-a11y icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-add-folder</td>
+                <td><i class="icon-add-folder"></i></td>
+                <td><code>&lt;i class="icon-add-folder"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-add-folder icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-add-folder icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-add-media</td>
+                <td><i class="icon-add-media"></i></td>
+                <td><code>&lt;i class="icon-add-media"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-add-media icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-add-media icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-add</td>
+                <td><i class="icon-add"></i></td>
+                <td><code>&lt;i class="icon-add"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-add icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-add icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-address-book</td>
+                <td><i class="icon-address-book"></i></td>
+                <td><code>&lt;i class="icon-address-book"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-address-book icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-address-book icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-admin-tools</td>
+                <td><i class="icon-admin-tools"></i></td>
+                <td><code>&lt;i class="icon-admin-tools"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-admin-tools icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-admin-tools icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-admin</td>
+                <td><i class="icon-admin"></i></td>
+                <td><code>&lt;i class="icon-admin"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-admin icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-admin icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-alerts</td>
+                <td><i class="icon-alerts"></i></td>
+                <td><code>&lt;i class="icon-alerts"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-alerts icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-alerts icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-analytics</td>
+                <td><i class="icon-analytics"></i></td>
+                <td><code>&lt;i class="icon-analytics"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-analytics icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-analytics icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-android</td>
+                <td><i class="icon-android"></i></td>
+                <td><code>&lt;i class="icon-android"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-android icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-android icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-annotate</td>
+                <td><i class="icon-annotate"></i></td>
+                <td><code>&lt;i class="icon-annotate"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-annotate icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-annotate icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-announcement</td>
+                <td><i class="icon-announcement"></i></td>
+                <td><code>&lt;i class="icon-announcement"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-announcement icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-announcement icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-apple</td>
+                <td><i class="icon-apple"></i></td>
+                <td><code>&lt;i class="icon-apple"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-apple icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-apple icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-archive</td>
+                <td><i class="icon-archive"></i></td>
+                <td><code>&lt;i class="icon-archive"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-archive icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-archive icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-double-end</td>
+                <td><i class="icon-arrow-double-end"></i></td>
+                <td><code>&lt;i class="icon-arrow-double-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-double-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-double-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-double-start</td>
+                <td><i class="icon-arrow-double-start"></i></td>
+                <td><code>&lt;i class="icon-arrow-double-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-double-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-double-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-down</td>
+                <td><i class="icon-arrow-down"></i></td>
+                <td><code>&lt;i class="icon-arrow-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-end</td>
+                <td><i class="icon-arrow-end"></i></td>
+                <td><code>&lt;i class="icon-arrow-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-left</td>
+                <td><i class="icon-arrow-left"></i></td>
+                <td><code>&lt;i class="icon-arrow-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-nest</td>
+                <td><i class="icon-arrow-nest"></i></td>
+                <td><code>&lt;i class="icon-arrow-nest"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-nest icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-nest icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-down</td>
+                <td><i class="icon-arrow-open-down"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-end</td>
+                <td><i class="icon-arrow-open-end"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-left</td>
+                <td><i class="icon-arrow-open-left"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-right</td>
+                <td><i class="icon-arrow-open-right"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-start</td>
+                <td><i class="icon-arrow-open-start"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-open-up</td>
+                <td><i class="icon-arrow-open-up"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-open-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-open-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-right</td>
+                <td><i class="icon-arrow-right"></i></td>
+                <td><code>&lt;i class="icon-arrow-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-start</td>
+                <td><i class="icon-arrow-start"></i></td>
+                <td><code>&lt;i class="icon-arrow-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-arrow-up</td>
+                <td><i class="icon-arrow-up"></i></td>
+                <td><code>&lt;i class="icon-arrow-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-arrow-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-arrow-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-assignment</td>
+                <td><i class="icon-assignment"></i></td>
+                <td><code>&lt;i class="icon-assignment"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-assignment icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-assignment icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-attach-media</td>
+                <td><i class="icon-attach-media"></i></td>
+                <td><code>&lt;i class="icon-attach-media"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-attach-media icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-attach-media icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-audio-off</td>
+                <td><i class="icon-audio-off"></i></td>
+                <td><code>&lt;i class="icon-audio-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-audio-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-audio-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-audio</td>
+                <td><i class="icon-audio"></i></td>
+                <td><code>&lt;i class="icon-audio"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-audio icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-audio icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-award</td>
+                <td><i class="icon-award"></i></td>
+                <td><code>&lt;i class="icon-award"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-award icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-award icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bank</td>
+                <td><i class="icon-bank"></i></td>
+                <td><code>&lt;i class="icon-bank"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bank icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bank icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-blueprint-lock</td>
+                <td><i class="icon-blueprint-lock"></i></td>
+                <td><code>&lt;i class="icon-blueprint-lock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-blueprint-lock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-blueprint-lock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-blueprint</td>
+                <td><i class="icon-blueprint"></i></td>
+                <td><code>&lt;i class="icon-blueprint"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-blueprint icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-blueprint icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bold</td>
+                <td><i class="icon-bold"></i></td>
+                <td><code>&lt;i class="icon-bold"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bold icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bold icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bookmark</td>
+                <td><i class="icon-bookmark"></i></td>
+                <td><code>&lt;i class="icon-bookmark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bookmark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bookmark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-box</td>
+                <td><i class="icon-box"></i></td>
+                <td><code>&lt;i class="icon-box"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-box icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-box icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bullet-list-alpha</td>
+                <td><i class="icon-bullet-list-alpha"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-alpha"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bullet-list-alpha icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-alpha icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bullet-list-circle-outline</td>
+                <td><i class="icon-bullet-list-circle-outline"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-circle-outline"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bullet-list-circle-outline icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-circle-outline icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bullet-list-roman</td>
+                <td><i class="icon-bullet-list-roman"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-roman"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bullet-list-roman icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-roman icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bullet-list-square</td>
+                <td><i class="icon-bullet-list-square"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-square"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bullet-list-square icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bullet-list-square icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-bullet-list</td>
+                <td><i class="icon-bullet-list"></i></td>
+                <td><code>&lt;i class="icon-bullet-list"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-bullet-list icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-bullet-list icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-button-and-icon-maker</td>
+                <td><i class="icon-button-and-icon-maker"></i></td>
+                <td><code>&lt;i class="icon-button-and-icon-maker"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-button-and-icon-maker icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-button-and-icon-maker icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calculator-desmos</td>
+                <td><i class="icon-calculator-desmos"></i></td>
+                <td><code>&lt;i class="icon-calculator-desmos"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calculator-desmos icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calculator-desmos icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calculator</td>
+                <td><i class="icon-calculator"></i></td>
+                <td><code>&lt;i class="icon-calculator"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calculator icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calculator icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-add</td>
+                <td><i class="icon-calendar-add"></i></td>
+                <td><code>&lt;i class="icon-calendar-add"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-add icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-add icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-clock</td>
+                <td><i class="icon-calendar-clock"></i></td>
+                <td><code>&lt;i class="icon-calendar-clock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-clock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-clock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-day</td>
+                <td><i class="icon-calendar-day"></i></td>
+                <td><code>&lt;i class="icon-calendar-day"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-day icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-day icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-days</td>
+                <td><i class="icon-calendar-days"></i></td>
+                <td><code>&lt;i class="icon-calendar-days"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-days icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-days icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-month</td>
+                <td><i class="icon-calendar-month"></i></td>
+                <td><code>&lt;i class="icon-calendar-month"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-month icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-month icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-calendar-reserved</td>
+                <td><i class="icon-calendar-reserved"></i></td>
+                <td><code>&lt;i class="icon-calendar-reserved"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-calendar-reserved icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-calendar-reserved icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-canvas-logo</td>
+                <td><i class="icon-canvas-logo"></i></td>
+                <td><code>&lt;i class="icon-canvas-logo"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-canvas-logo icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-canvas-logo icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-certified</td>
+                <td><i class="icon-certified"></i></td>
+                <td><code>&lt;i class="icon-certified"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-certified icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-certified icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-chat</td>
+                <td><i class="icon-chat"></i></td>
+                <td><code>&lt;i class="icon-chat"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-chat icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-chat icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-check-dark</td>
+                <td><i class="icon-check-dark"></i></td>
+                <td><code>&lt;i class="icon-check-dark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-check-dark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-check-dark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-check-mark-indeterminate</td>
+                <td><i class="icon-check-mark-indeterminate"></i></td>
+                <td><code>&lt;i class="icon-check-mark-indeterminate"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-check-mark-indeterminate icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-check-mark-indeterminate icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-check-mark</td>
+                <td><i class="icon-check-mark"></i></td>
+                <td><code>&lt;i class="icon-check-mark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-check-mark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-check-mark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-check-plus</td>
+                <td><i class="icon-check-plus"></i></td>
+                <td><code>&lt;i class="icon-check-plus"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-check-plus icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-check-plus icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-check</td>
+                <td><i class="icon-check"></i></td>
+                <td><code>&lt;i class="icon-check"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-check icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-check icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-circle-arrow-down</td>
+                <td><i class="icon-circle-arrow-down"></i></td>
+                <td><code>&lt;i class="icon-circle-arrow-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-circle-arrow-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-circle-arrow-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-circle-arrow-up</td>
+                <td><i class="icon-circle-arrow-up"></i></td>
+                <td><code>&lt;i class="icon-circle-arrow-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-circle-arrow-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-circle-arrow-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-clear-text-formatting</td>
+                <td><i class="icon-clear-text-formatting"></i></td>
+                <td><code>&lt;i class="icon-clear-text-formatting"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-clear-text-formatting icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-clear-text-formatting icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-clock</td>
+                <td><i class="icon-clock"></i></td>
+                <td><code>&lt;i class="icon-clock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-clock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-clock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-closed-captioning-off</td>
+                <td><i class="icon-closed-captioning-off"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-closed-captioning-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-closed-captioning-on</td>
+                <td><i class="icon-closed-captioning-on"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning-on"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-closed-captioning-on icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning-on icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-closed-captioning</td>
+                <td><i class="icon-closed-captioning"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-closed-captioning icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-closed-captioning icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-cloud-download</td>
+                <td><i class="icon-cloud-download"></i></td>
+                <td><code>&lt;i class="icon-cloud-download"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-cloud-download icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-cloud-download icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-cloud-lock</td>
+                <td><i class="icon-cloud-lock"></i></td>
+                <td><code>&lt;i class="icon-cloud-lock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-cloud-lock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-cloud-lock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-cloud-upload</td>
+                <td><i class="icon-cloud-upload"></i></td>
+                <td><code>&lt;i class="icon-cloud-upload"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-cloud-upload icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-cloud-upload icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-code</td>
+                <td><i class="icon-code"></i></td>
+                <td><code>&lt;i class="icon-code"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-code icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-code icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-collapse</td>
+                <td><i class="icon-collapse"></i></td>
+                <td><code>&lt;i class="icon-collapse"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-collapse icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-collapse icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-collection-save</td>
+                <td><i class="icon-collection-save"></i></td>
+                <td><code>&lt;i class="icon-collection-save"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-collection-save icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-collection-save icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-collection</td>
+                <td><i class="icon-collection"></i></td>
+                <td><code>&lt;i class="icon-collection"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-collection icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-collection icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-comment</td>
+                <td><i class="icon-comment"></i></td>
+                <td><code>&lt;i class="icon-comment"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-comment icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-comment icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-comments-off</td>
+                <td><i class="icon-comments-off"></i></td>
+                <td><code>&lt;i class="icon-comments-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-comments-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-comments-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-comments-on</td>
+                <td><i class="icon-comments-on"></i></td>
+                <td><code>&lt;i class="icon-comments-on"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-comments-on icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-comments-on icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-commons</td>
+                <td><i class="icon-commons"></i></td>
+                <td><code>&lt;i class="icon-commons"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-commons icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-commons icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-compass</td>
+                <td><i class="icon-compass"></i></td>
+                <td><code>&lt;i class="icon-compass"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-compass icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-compass icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-complete</td>
+                <td><i class="icon-complete"></i></td>
+                <td><code>&lt;i class="icon-complete"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-complete icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-complete icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-compose</td>
+                <td><i class="icon-compose"></i></td>
+                <td><code>&lt;i class="icon-compose"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-compose icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-compose icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-configure</td>
+                <td><i class="icon-configure"></i></td>
+                <td><code>&lt;i class="icon-configure"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-configure icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-configure icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-copy-course</td>
+                <td><i class="icon-copy-course"></i></td>
+                <td><code>&lt;i class="icon-copy-course"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-copy-course icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-copy-course icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-copy</td>
+                <td><i class="icon-copy"></i></td>
+                <td><code>&lt;i class="icon-copy"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-copy icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-copy icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-courses</td>
+                <td><i class="icon-courses"></i></td>
+                <td><code>&lt;i class="icon-courses"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-courses icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-courses icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-crop</td>
+                <td><i class="icon-crop"></i></td>
+                <td><code>&lt;i class="icon-crop"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-crop icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-crop icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-dashboard</td>
+                <td><i class="icon-dashboard"></i></td>
+                <td><code>&lt;i class="icon-dashboard"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-dashboard icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-dashboard icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-deactivate-user</td>
+                <td><i class="icon-deactivate-user"></i></td>
+                <td><code>&lt;i class="icon-deactivate-user"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-deactivate-user icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-deactivate-user icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-check</td>
+                <td><i class="icon-discussion-check"></i></td>
+                <td><code>&lt;i class="icon-discussion-check"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-check icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-check icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-new</td>
+                <td><i class="icon-discussion-new"></i></td>
+                <td><code>&lt;i class="icon-discussion-new"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-new icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-new icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-reply-2</td>
+                <td><i class="icon-discussion-reply-2"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply-2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-reply-2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply-2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-reply-dark</td>
+                <td><i class="icon-discussion-reply-dark"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply-dark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-reply-dark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply-dark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-reply</td>
+                <td><i class="icon-discussion-reply"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-reply icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-reply icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-search</td>
+                <td><i class="icon-discussion-search"></i></td>
+                <td><code>&lt;i class="icon-discussion-search"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-search icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-search icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion-x</td>
+                <td><i class="icon-discussion-x"></i></td>
+                <td><code>&lt;i class="icon-discussion-x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion-x icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion-x icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-discussion</td>
+                <td><i class="icon-discussion"></i></td>
+                <td><code>&lt;i class="icon-discussion"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-discussion icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-discussion icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-document</td>
+                <td><i class="icon-document"></i></td>
+                <td><code>&lt;i class="icon-document"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-document icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-document icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-download</td>
+                <td><i class="icon-download"></i></td>
+                <td><code>&lt;i class="icon-download"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-download icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-download icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-drag-handle</td>
+                <td><i class="icon-drag-handle"></i></td>
+                <td><code>&lt;i class="icon-drag-handle"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-drag-handle icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-drag-handle icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-drop-down</td>
+                <td><i class="icon-drop-down"></i></td>
+                <td><code>&lt;i class="icon-drop-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-drop-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-drop-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-duplicate</td>
+                <td><i class="icon-duplicate"></i></td>
+                <td><code>&lt;i class="icon-duplicate"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-duplicate icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-duplicate icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-edit</td>
+                <td><i class="icon-edit"></i></td>
+                <td><code>&lt;i class="icon-edit"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-edit icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-edit icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-educators</td>
+                <td><i class="icon-educators"></i></td>
+                <td><code>&lt;i class="icon-educators"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-educators icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-educators icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-elevate-logo</td>
+                <td><i class="icon-elevate-logo"></i></td>
+                <td><code>&lt;i class="icon-elevate-logo"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-elevate-logo icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-elevate-logo icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-email</td>
+                <td><i class="icon-email"></i></td>
+                <td><code>&lt;i class="icon-email"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-email icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-email icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-empty</td>
+                <td><i class="icon-empty"></i></td>
+                <td><code>&lt;i class="icon-empty"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-empty icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-empty icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-end</td>
+                <td><i class="icon-end"></i></td>
+                <td><code>&lt;i class="icon-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-eportfolio</td>
+                <td><i class="icon-eportfolio"></i></td>
+                <td><code>&lt;i class="icon-eportfolio"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-eportfolio icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-eportfolio icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-equation</td>
+                <td><i class="icon-equation"></i></td>
+                <td><code>&lt;i class="icon-equation"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-equation icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-equation icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-equella</td>
+                <td><i class="icon-equella"></i></td>
+                <td><code>&lt;i class="icon-equella"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-equella icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-equella icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-essay</td>
+                <td><i class="icon-essay"></i></td>
+                <td><code>&lt;i class="icon-essay"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-essay icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-essay icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-exit-full-screen</td>
+                <td><i class="icon-exit-full-screen"></i></td>
+                <td><code>&lt;i class="icon-exit-full-screen"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-exit-full-screen icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-exit-full-screen icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-expand-items</td>
+                <td><i class="icon-expand-items"></i></td>
+                <td><code>&lt;i class="icon-expand-items"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-expand-items icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-expand-items icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-expand-left</td>
+                <td><i class="icon-expand-left"></i></td>
+                <td><code>&lt;i class="icon-expand-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-expand-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-expand-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-expand-start</td>
+                <td><i class="icon-expand-start"></i></td>
+                <td><code>&lt;i class="icon-expand-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-expand-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-expand-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-expand</td>
+                <td><i class="icon-expand"></i></td>
+                <td><code>&lt;i class="icon-expand"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-expand icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-expand icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-export-content</td>
+                <td><i class="icon-export-content"></i></td>
+                <td><code>&lt;i class="icon-export-content"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-export-content icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-export-content icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-export</td>
+                <td><i class="icon-export"></i></td>
+                <td><code>&lt;i class="icon-export"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-export icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-export icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-external-link</td>
+                <td><i class="icon-external-link"></i></td>
+                <td><code>&lt;i class="icon-external-link"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-external-link icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-external-link icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-eye</td>
+                <td><i class="icon-eye"></i></td>
+                <td><code>&lt;i class="icon-eye"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-eye icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-eye icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-facebook-boxed</td>
+                <td><i class="icon-facebook-boxed"></i></td>
+                <td><code>&lt;i class="icon-facebook-boxed"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-facebook-boxed icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-facebook-boxed icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-facebook</td>
+                <td><i class="icon-facebook"></i></td>
+                <td><code>&lt;i class="icon-facebook"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-facebook icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-facebook icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-fast-forward</td>
+                <td><i class="icon-fast-forward"></i></td>
+                <td><code>&lt;i class="icon-fast-forward"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-fast-forward icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-fast-forward icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-feedback</td>
+                <td><i class="icon-feedback"></i></td>
+                <td><code>&lt;i class="icon-feedback"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-feedback icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-feedback icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-file-locked</td>
+                <td><i class="icon-file-locked"></i></td>
+                <td><code>&lt;i class="icon-file-locked"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-file-locked icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-file-locked icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-files-copyright</td>
+                <td><i class="icon-files-copyright"></i></td>
+                <td><code>&lt;i class="icon-files-copyright"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-files-copyright icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-files-copyright icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-files-creative-commons</td>
+                <td><i class="icon-files-creative-commons"></i></td>
+                <td><code>&lt;i class="icon-files-creative-commons"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-files-creative-commons icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-files-creative-commons icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-files-fair-use</td>
+                <td><i class="icon-files-fair-use"></i></td>
+                <td><code>&lt;i class="icon-files-fair-use"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-files-fair-use icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-files-fair-use icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-files-obtained-permission</td>
+                <td><i class="icon-files-obtained-permission"></i></td>
+                <td><code>&lt;i class="icon-files-obtained-permission"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-files-obtained-permission icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-files-obtained-permission icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-files-public-domain</td>
+                <td><i class="icon-files-public-domain"></i></td>
+                <td><code>&lt;i class="icon-files-public-domain"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-files-public-domain icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-files-public-domain icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-filmstrip</td>
+                <td><i class="icon-filmstrip"></i></td>
+                <td><code>&lt;i class="icon-filmstrip"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-filmstrip icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-filmstrip icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-filter</td>
+                <td><i class="icon-filter"></i></td>
+                <td><code>&lt;i class="icon-filter"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-filter icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-filter icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-flag</td>
+                <td><i class="icon-flag"></i></td>
+                <td><code>&lt;i class="icon-flag"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-flag icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-flag icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-folder-locked</td>
+                <td><i class="icon-folder-locked"></i></td>
+                <td><code>&lt;i class="icon-folder-locked"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-folder-locked icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-folder-locked icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-folder</td>
+                <td><i class="icon-folder"></i></td>
+                <td><code>&lt;i class="icon-folder"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-folder icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-folder icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-forward</td>
+                <td><i class="icon-forward"></i></td>
+                <td><code>&lt;i class="icon-forward"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-forward icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-forward icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-full-screen</td>
+                <td><i class="icon-full-screen"></i></td>
+                <td><code>&lt;i class="icon-full-screen"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-full-screen icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-full-screen icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-github</td>
+                <td><i class="icon-github"></i></td>
+                <td><code>&lt;i class="icon-github"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-github icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-github icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-gradebook-export</td>
+                <td><i class="icon-gradebook-export"></i></td>
+                <td><code>&lt;i class="icon-gradebook-export"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-gradebook-export icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-gradebook-export icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-gradebook-import</td>
+                <td><i class="icon-gradebook-import"></i></td>
+                <td><code>&lt;i class="icon-gradebook-import"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-gradebook-import icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-gradebook-import icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-gradebook</td>
+                <td><i class="icon-gradebook"></i></td>
+                <td><code>&lt;i class="icon-gradebook"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-gradebook icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-gradebook icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-group-dark-new</td>
+                <td><i class="icon-group-dark-new"></i></td>
+                <td><code>&lt;i class="icon-group-dark-new"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-group-dark-new icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-group-dark-new icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-group-new</td>
+                <td><i class="icon-group-new"></i></td>
+                <td><code>&lt;i class="icon-group-new"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-group-new icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-group-new icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-group</td>
+                <td><i class="icon-group"></i></td>
+                <td><code>&lt;i class="icon-group"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-group icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-group icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-hamburger</td>
+                <td><i class="icon-hamburger"></i></td>
+                <td><code>&lt;i class="icon-hamburger"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-hamburger icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-hamburger icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-header</td>
+                <td><i class="icon-header"></i></td>
+                <td><code>&lt;i class="icon-header"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-header icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-header icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-heart</td>
+                <td><i class="icon-heart"></i></td>
+                <td><code>&lt;i class="icon-heart"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-heart icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-heart icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-highlighter</td>
+                <td><i class="icon-highlighter"></i></td>
+                <td><code>&lt;i class="icon-highlighter"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-highlighter icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-highlighter icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-home</td>
+                <td><i class="icon-home"></i></td>
+                <td><code>&lt;i class="icon-home"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-home icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-home icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-hour-glass</td>
+                <td><i class="icon-hour-glass"></i></td>
+                <td><code>&lt;i class="icon-hour-glass"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-hour-glass icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-hour-glass icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-image</td>
+                <td><i class="icon-image"></i></td>
+                <td><code>&lt;i class="icon-image"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-image icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-image icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-immersive-reader</td>
+                <td><i class="icon-immersive-reader"></i></td>
+                <td><code>&lt;i class="icon-immersive-reader"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-immersive-reader icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-immersive-reader icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-impact-logo</td>
+                <td><i class="icon-impact-logo"></i></td>
+                <td><code>&lt;i class="icon-impact-logo"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-impact-logo icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-impact-logo icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-import-content</td>
+                <td><i class="icon-import-content"></i></td>
+                <td><code>&lt;i class="icon-import-content"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-import-content icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-import-content icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-import</td>
+                <td><i class="icon-import"></i></td>
+                <td><code>&lt;i class="icon-import"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-import icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-import icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-important-dates</td>
+                <td><i class="icon-important-dates"></i></td>
+                <td><code>&lt;i class="icon-important-dates"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-important-dates icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-important-dates icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-inbox</td>
+                <td><i class="icon-inbox"></i></td>
+                <td><code>&lt;i class="icon-inbox"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-inbox icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-inbox icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-indent-2</td>
+                <td><i class="icon-indent-2"></i></td>
+                <td><code>&lt;i class="icon-indent-2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-indent-2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-indent-2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-indent</td>
+                <td><i class="icon-indent"></i></td>
+                <td><code>&lt;i class="icon-indent"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-indent icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-indent icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-info-borderless</td>
+                <td><i class="icon-info-borderless"></i></td>
+                <td><code>&lt;i class="icon-info-borderless"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-info-borderless icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-info-borderless icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-info</td>
+                <td><i class="icon-info"></i></td>
+                <td><code>&lt;i class="icon-info"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-info icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-info icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-instructure-logo</td>
+                <td><i class="icon-instructure-logo"></i></td>
+                <td><code>&lt;i class="icon-instructure-logo"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-instructure-logo icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-instructure-logo icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-instructure</td>
+                <td><i class="icon-instructure"></i></td>
+                <td><code>&lt;i class="icon-instructure"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-instructure icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-instructure icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-integrations</td>
+                <td><i class="icon-integrations"></i></td>
+                <td><code>&lt;i class="icon-integrations"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-integrations icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-integrations icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-invitation</td>
+                <td><i class="icon-invitation"></i></td>
+                <td><code>&lt;i class="icon-invitation"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-invitation icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-invitation icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-italic</td>
+                <td><i class="icon-italic"></i></td>
+                <td><code>&lt;i class="icon-italic"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-italic icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-italic icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-keyboard-shortcuts</td>
+                <td><i class="icon-keyboard-shortcuts"></i></td>
+                <td><code>&lt;i class="icon-keyboard-shortcuts"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-keyboard-shortcuts icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-keyboard-shortcuts icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-launch</td>
+                <td><i class="icon-launch"></i></td>
+                <td><code>&lt;i class="icon-launch"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-launch icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-launch icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-life-preserver</td>
+                <td><i class="icon-life-preserver"></i></td>
+                <td><code>&lt;i class="icon-life-preserver"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-life-preserver icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-life-preserver icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-like</td>
+                <td><i class="icon-like"></i></td>
+                <td><code>&lt;i class="icon-like"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-like icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-like icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-line-reader</td>
+                <td><i class="icon-line-reader"></i></td>
+                <td><code>&lt;i class="icon-line-reader"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-line-reader icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-line-reader icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-link</td>
+                <td><i class="icon-link"></i></td>
+                <td><code>&lt;i class="icon-link"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-link icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-link icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-linkedin</td>
+                <td><i class="icon-linkedin"></i></td>
+                <td><code>&lt;i class="icon-linkedin"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-linkedin icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-linkedin icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-lock</td>
+                <td><i class="icon-lock"></i></td>
+                <td><code>&lt;i class="icon-lock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-lock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-lock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-lti</td>
+                <td><i class="icon-lti"></i></td>
+                <td><code>&lt;i class="icon-lti"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-lti icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-lti icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mark-as-read</td>
+                <td><i class="icon-mark-as-read"></i></td>
+                <td><code>&lt;i class="icon-mark-as-read"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mark-as-read icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mark-as-read icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-marker</td>
+                <td><i class="icon-marker"></i></td>
+                <td><code>&lt;i class="icon-marker"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-marker icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-marker icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-masquerade</td>
+                <td><i class="icon-masquerade"></i></td>
+                <td><code>&lt;i class="icon-masquerade"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-masquerade icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-masquerade icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mastery-logo</td>
+                <td><i class="icon-mastery-logo"></i></td>
+                <td><code>&lt;i class="icon-mastery-logo"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mastery-logo icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mastery-logo icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mastery-paths</td>
+                <td><i class="icon-mastery-paths"></i></td>
+                <td><code>&lt;i class="icon-mastery-paths"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mastery-paths icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mastery-paths icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-materials-required-light</td>
+                <td><i class="icon-materials-required-light"></i></td>
+                <td><code>&lt;i class="icon-materials-required-light"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-materials-required-light icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-materials-required-light icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-materials-required</td>
+                <td><i class="icon-materials-required"></i></td>
+                <td><code>&lt;i class="icon-materials-required"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-materials-required icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-materials-required icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mature-light</td>
+                <td><i class="icon-mature-light"></i></td>
+                <td><code>&lt;i class="icon-mature-light"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mature-light icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mature-light icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mature</td>
+                <td><i class="icon-mature"></i></td>
+                <td><code>&lt;i class="icon-mature"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mature icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mature icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-media</td>
+                <td><i class="icon-media"></i></td>
+                <td><code>&lt;i class="icon-media"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-media icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-media icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-message</td>
+                <td><i class="icon-message"></i></td>
+                <td><code>&lt;i class="icon-message"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-message icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-message icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mic-off</td>
+                <td><i class="icon-mic-off"></i></td>
+                <td><code>&lt;i class="icon-mic-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mic-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mic-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mic</td>
+                <td><i class="icon-mic"></i></td>
+                <td><code>&lt;i class="icon-mic"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mic icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mic icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-double</td>
+                <td><i class="icon-mini-arrow-double"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-double"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-double icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-double icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-down</td>
+                <td><i class="icon-mini-arrow-down"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-end</td>
+                <td><i class="icon-mini-arrow-end"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-left</td>
+                <td><i class="icon-mini-arrow-left"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-right</td>
+                <td><i class="icon-mini-arrow-right"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-start</td>
+                <td><i class="icon-mini-arrow-start"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-mini-arrow-up</td>
+                <td><i class="icon-mini-arrow-up"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-mini-arrow-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-mini-arrow-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-minimize</td>
+                <td><i class="icon-minimize"></i></td>
+                <td><code>&lt;i class="icon-minimize"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-minimize icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-minimize icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-module</td>
+                <td><i class="icon-module"></i></td>
+                <td><code>&lt;i class="icon-module"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-module icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-module icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-more</td>
+                <td><i class="icon-more"></i></td>
+                <td><code>&lt;i class="icon-more"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-more icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-more icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-down-bottom</td>
+                <td><i class="icon-move-down-bottom"></i></td>
+                <td><code>&lt;i class="icon-move-down-bottom"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-down-bottom icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-down-bottom icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-down</td>
+                <td><i class="icon-move-down"></i></td>
+                <td><code>&lt;i class="icon-move-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-end</td>
+                <td><i class="icon-move-end"></i></td>
+                <td><code>&lt;i class="icon-move-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-left</td>
+                <td><i class="icon-move-left"></i></td>
+                <td><code>&lt;i class="icon-move-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-right</td>
+                <td><i class="icon-move-right"></i></td>
+                <td><code>&lt;i class="icon-move-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-start</td>
+                <td><i class="icon-move-start"></i></td>
+                <td><code>&lt;i class="icon-move-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-up-top</td>
+                <td><i class="icon-move-up-top"></i></td>
+                <td><code>&lt;i class="icon-move-up-top"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-up-top icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-up-top icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-move-up</td>
+                <td><i class="icon-move-up"></i></td>
+                <td><code>&lt;i class="icon-move-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-move-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-move-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-ms-excel</td>
+                <td><i class="icon-ms-excel"></i></td>
+                <td><code>&lt;i class="icon-ms-excel"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-ms-excel icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-ms-excel icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-ms-ppt</td>
+                <td><i class="icon-ms-ppt"></i></td>
+                <td><code>&lt;i class="icon-ms-ppt"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-ms-ppt icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-ms-ppt icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-ms-word</td>
+                <td><i class="icon-ms-word"></i></td>
+                <td><code>&lt;i class="icon-ms-word"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-ms-word icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-ms-word icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-muted</td>
+                <td><i class="icon-muted"></i></td>
+                <td><code>&lt;i class="icon-muted"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-muted icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-muted icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-next-unread</td>
+                <td><i class="icon-next-unread"></i></td>
+                <td><code>&lt;i class="icon-next-unread"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-next-unread icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-next-unread icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-no</td>
+                <td><i class="icon-no"></i></td>
+                <td><code>&lt;i class="icon-no"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-no icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-no icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-not-graded</td>
+                <td><i class="icon-not-graded"></i></td>
+                <td><code>&lt;i class="icon-not-graded"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-not-graded icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-not-graded icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-note-dark</td>
+                <td><i class="icon-note-dark"></i></td>
+                <td><code>&lt;i class="icon-note-dark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-note-dark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-note-dark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-note-light</td>
+                <td><i class="icon-note-light"></i></td>
+                <td><code>&lt;i class="icon-note-light"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-note-light icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-note-light icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-note</td>
+                <td><i class="icon-note"></i></td>
+                <td><code>&lt;i class="icon-note"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-note icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-note icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-notepad</td>
+                <td><i class="icon-notepad"></i></td>
+                <td><code>&lt;i class="icon-notepad"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-notepad icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-notepad icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-numbered-list</td>
+                <td><i class="icon-numbered-list"></i></td>
+                <td><code>&lt;i class="icon-numbered-list"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-numbered-list icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-numbered-list icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-off</td>
+                <td><i class="icon-off"></i></td>
+                <td><code>&lt;i class="icon-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-open-folder</td>
+                <td><i class="icon-open-folder"></i></td>
+                <td><code>&lt;i class="icon-open-folder"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-open-folder icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-open-folder icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-outcomes</td>
+                <td><i class="icon-outcomes"></i></td>
+                <td><code>&lt;i class="icon-outcomes"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-outcomes icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-outcomes icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-outdent</td>
+                <td><i class="icon-outdent"></i></td>
+                <td><code>&lt;i class="icon-outdent"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-outdent icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-outdent icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-outdent2</td>
+                <td><i class="icon-outdent2"></i></td>
+                <td><code>&lt;i class="icon-outdent2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-outdent2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-outdent2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-oval-half</td>
+                <td><i class="icon-oval-half"></i></td>
+                <td><code>&lt;i class="icon-oval-half"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-oval-half icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-oval-half icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-page-down</td>
+                <td><i class="icon-page-down"></i></td>
+                <td><code>&lt;i class="icon-page-down"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-page-down icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-page-down icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-page-up</td>
+                <td><i class="icon-page-up"></i></td>
+                <td><code>&lt;i class="icon-page-up"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-page-up icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-page-up icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-paint</td>
+                <td><i class="icon-paint"></i></td>
+                <td><code>&lt;i class="icon-paint"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-paint icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-paint icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-paperclip</td>
+                <td><i class="icon-paperclip"></i></td>
+                <td><code>&lt;i class="icon-paperclip"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-paperclip icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-paperclip icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-partial</td>
+                <td><i class="icon-partial"></i></td>
+                <td><code>&lt;i class="icon-partial"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-partial icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-partial icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-pause</td>
+                <td><i class="icon-pause"></i></td>
+                <td><code>&lt;i class="icon-pause"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-pause icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-pause icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-pdf</td>
+                <td><i class="icon-pdf"></i></td>
+                <td><code>&lt;i class="icon-pdf"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-pdf icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-pdf icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-peer-graded</td>
+                <td><i class="icon-peer-graded"></i></td>
+                <td><code>&lt;i class="icon-peer-graded"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-peer-graded icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-peer-graded icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-peer-review</td>
+                <td><i class="icon-peer-review"></i></td>
+                <td><code>&lt;i class="icon-peer-review"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-peer-review icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-peer-review icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-permissions</td>
+                <td><i class="icon-permissions"></i></td>
+                <td><code>&lt;i class="icon-permissions"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-permissions icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-permissions icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-pin</td>
+                <td><i class="icon-pin"></i></td>
+                <td><code>&lt;i class="icon-pin"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-pin icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-pin icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-pinterest</td>
+                <td><i class="icon-pinterest"></i></td>
+                <td><code>&lt;i class="icon-pinterest"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-pinterest icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-pinterest icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-play</td>
+                <td><i class="icon-play"></i></td>
+                <td><code>&lt;i class="icon-play"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-play icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-play icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-plus</td>
+                <td><i class="icon-plus"></i></td>
+                <td><code>&lt;i class="icon-plus"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-plus icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-plus icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-post-to-sis</td>
+                <td><i class="icon-post-to-sis"></i></td>
+                <td><code>&lt;i class="icon-post-to-sis"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-post-to-sis icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-post-to-sis icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-predictive</td>
+                <td><i class="icon-predictive"></i></td>
+                <td><code>&lt;i class="icon-predictive"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-predictive icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-predictive icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-prerequisite</td>
+                <td><i class="icon-prerequisite"></i></td>
+                <td><code>&lt;i class="icon-prerequisite"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-prerequisite icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-prerequisite icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-printer</td>
+                <td><i class="icon-printer"></i></td>
+                <td><code>&lt;i class="icon-printer"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-printer icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-printer icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-progress</td>
+                <td><i class="icon-progress"></i></td>
+                <td><code>&lt;i class="icon-progress"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-progress icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-progress icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-protractor</td>
+                <td><i class="icon-protractor"></i></td>
+                <td><code>&lt;i class="icon-protractor"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-protractor icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-protractor icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-publish</td>
+                <td><i class="icon-publish"></i></td>
+                <td><code>&lt;i class="icon-publish"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-publish icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-publish icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-question</td>
+                <td><i class="icon-question"></i></td>
+                <td><code>&lt;i class="icon-question"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-question icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-question icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-instructions</td>
+                <td><i class="icon-quiz-instructions"></i></td>
+                <td><code>&lt;i class="icon-quiz-instructions"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-instructions icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-instructions icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-avg</td>
+                <td><i class="icon-quiz-stats-avg"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-avg"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-avg icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-avg icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-cronbachs-alpha</td>
+                <td><i class="icon-quiz-stats-cronbachs-alpha"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-cronbachs-alpha"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-cronbachs-alpha icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-cronbachs-alpha icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-deviation</td>
+                <td><i class="icon-quiz-stats-deviation"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-deviation"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-deviation icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-deviation icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-high</td>
+                <td><i class="icon-quiz-stats-high"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-high"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-high icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-high icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-low</td>
+                <td><i class="icon-quiz-stats-low"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-low"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-low icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-low icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-stats-time</td>
+                <td><i class="icon-quiz-stats-time"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-time"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-stats-time icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-stats-time icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz-title</td>
+                <td><i class="icon-quiz-title"></i></td>
+                <td><code>&lt;i class="icon-quiz-title"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz-title icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz-title icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-quiz</td>
+                <td><i class="icon-quiz"></i></td>
+                <td><code>&lt;i class="icon-quiz"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-quiz icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-quiz icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-record</td>
+                <td><i class="icon-record"></i></td>
+                <td><code>&lt;i class="icon-record"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-record icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-record icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-refresh</td>
+                <td><i class="icon-refresh"></i></td>
+                <td><code>&lt;i class="icon-refresh"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-refresh icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-refresh icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-remove-bookmark</td>
+                <td><i class="icon-remove-bookmark"></i></td>
+                <td><code>&lt;i class="icon-remove-bookmark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-remove-bookmark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-remove-bookmark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-remove-from-collection</td>
+                <td><i class="icon-remove-from-collection"></i></td>
+                <td><code>&lt;i class="icon-remove-from-collection"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-remove-from-collection icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-remove-from-collection icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-remove-link</td>
+                <td><i class="icon-remove-link"></i></td>
+                <td><code>&lt;i class="icon-remove-link"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-remove-link icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-remove-link icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-replied</td>
+                <td><i class="icon-replied"></i></td>
+                <td><code>&lt;i class="icon-replied"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-replied icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-replied icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-reply-2</td>
+                <td><i class="icon-reply-2"></i></td>
+                <td><code>&lt;i class="icon-reply-2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-reply-2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-reply-2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-reply-all-2</td>
+                <td><i class="icon-reply-all-2"></i></td>
+                <td><code>&lt;i class="icon-reply-all-2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-reply-all-2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-reply-all-2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-reply</td>
+                <td><i class="icon-reply"></i></td>
+                <td><code>&lt;i class="icon-reply"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-reply icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-reply icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-reset</td>
+                <td><i class="icon-reset"></i></td>
+                <td><code>&lt;i class="icon-reset"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-reset icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-reset icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-review-screen</td>
+                <td><i class="icon-review-screen"></i></td>
+                <td><code>&lt;i class="icon-review-screen"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-review-screen icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-review-screen icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rewind</td>
+                <td><i class="icon-rewind"></i></td>
+                <td><code>&lt;i class="icon-rewind"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rewind icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rewind icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rotate-left</td>
+                <td><i class="icon-rotate-left"></i></td>
+                <td><code>&lt;i class="icon-rotate-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rotate-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rotate-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rotate-right</td>
+                <td><i class="icon-rotate-right"></i></td>
+                <td><code>&lt;i class="icon-rotate-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rotate-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rotate-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rss-add</td>
+                <td><i class="icon-rss-add"></i></td>
+                <td><code>&lt;i class="icon-rss-add"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rss-add icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rss-add icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rss</td>
+                <td><i class="icon-rss"></i></td>
+                <td><code>&lt;i class="icon-rss"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rss icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rss icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rubric-dark</td>
+                <td><i class="icon-rubric-dark"></i></td>
+                <td><code>&lt;i class="icon-rubric-dark"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rubric-dark icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rubric-dark icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-rubric</td>
+                <td><i class="icon-rubric"></i></td>
+                <td><code>&lt;i class="icon-rubric"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-rubric icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-rubric icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-ruler</td>
+                <td><i class="icon-ruler"></i></td>
+                <td><code>&lt;i class="icon-ruler"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-ruler icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-ruler icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-save</td>
+                <td><i class="icon-save"></i></td>
+                <td><code>&lt;i class="icon-save"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-save icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-save icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-screen-capture</td>
+                <td><i class="icon-screen-capture"></i></td>
+                <td><code>&lt;i class="icon-screen-capture"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-screen-capture icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-screen-capture icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-search-address-book</td>
+                <td><i class="icon-search-address-book"></i></td>
+                <td><code>&lt;i class="icon-search-address-book"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-search-address-book icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-search-address-book icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-search</td>
+                <td><i class="icon-search"></i></td>
+                <td><code>&lt;i class="icon-search"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-search icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-search icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-settings-2</td>
+                <td><i class="icon-settings-2"></i></td>
+                <td><code>&lt;i class="icon-settings-2"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-settings-2 icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-settings-2 icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-settings</td>
+                <td><i class="icon-settings"></i></td>
+                <td><code>&lt;i class="icon-settings"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-settings icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-settings icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-shape-oval</td>
+                <td><i class="icon-shape-oval"></i></td>
+                <td><code>&lt;i class="icon-shape-oval"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-shape-oval icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-shape-oval icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-shape-polygon</td>
+                <td><i class="icon-shape-polygon"></i></td>
+                <td><code>&lt;i class="icon-shape-polygon"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-shape-polygon icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-shape-polygon icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-shape-rectangle</td>
+                <td><i class="icon-shape-rectangle"></i></td>
+                <td><code>&lt;i class="icon-shape-rectangle"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-shape-rectangle icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-shape-rectangle icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-share</td>
+                <td><i class="icon-share"></i></td>
+                <td><code>&lt;i class="icon-share"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-share icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-share icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-sis-imported</td>
+                <td><i class="icon-sis-imported"></i></td>
+                <td><code>&lt;i class="icon-sis-imported"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-sis-imported icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-sis-imported icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-sis-not-synced</td>
+                <td><i class="icon-sis-not-synced"></i></td>
+                <td><code>&lt;i class="icon-sis-not-synced"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-sis-not-synced icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-sis-not-synced icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-sis-synced</td>
+                <td><i class="icon-sis-synced"></i></td>
+                <td><code>&lt;i class="icon-sis-synced"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-sis-synced icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-sis-synced icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-skype</td>
+                <td><i class="icon-skype"></i></td>
+                <td><code>&lt;i class="icon-skype"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-skype icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-skype icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-sort</td>
+                <td><i class="icon-sort"></i></td>
+                <td><code>&lt;i class="icon-sort"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-sort icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-sort icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-speed-grader</td>
+                <td><i class="icon-speed-grader"></i></td>
+                <td><code>&lt;i class="icon-speed-grader"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-speed-grader icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-speed-grader icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-standards</td>
+                <td><i class="icon-standards"></i></td>
+                <td><code>&lt;i class="icon-standards"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-standards icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-standards icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-star-light</td>
+                <td><i class="icon-star-light"></i></td>
+                <td><code>&lt;i class="icon-star-light"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-star-light icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-star-light icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-star</td>
+                <td><i class="icon-star"></i></td>
+                <td><code>&lt;i class="icon-star"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-star icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-star icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-stats</td>
+                <td><i class="icon-stats"></i></td>
+                <td><code>&lt;i class="icon-stats"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-stats icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-stats icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-stop</td>
+                <td><i class="icon-stop"></i></td>
+                <td><code>&lt;i class="icon-stop"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-stop icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-stop icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-strikethrough</td>
+                <td><i class="icon-strikethrough"></i></td>
+                <td><code>&lt;i class="icon-strikethrough"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-strikethrough icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-strikethrough icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-student-view</td>
+                <td><i class="icon-student-view"></i></td>
+                <td><code>&lt;i class="icon-student-view"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-student-view icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-student-view icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-studio</td>
+                <td><i class="icon-studio"></i></td>
+                <td><code>&lt;i class="icon-studio"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-studio icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-studio icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-subaccounts</td>
+                <td><i class="icon-subaccounts"></i></td>
+                <td><code>&lt;i class="icon-subaccounts"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-subaccounts icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-subaccounts icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-subtitles</td>
+                <td><i class="icon-subtitles"></i></td>
+                <td><code>&lt;i class="icon-subtitles"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-subtitles icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-subtitles icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-syllabus</td>
+                <td><i class="icon-syllabus"></i></td>
+                <td><code>&lt;i class="icon-syllabus"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-syllabus icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-syllabus icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-cell-select-all</td>
+                <td><i class="icon-table-cell-select-all"></i></td>
+                <td><code>&lt;i class="icon-table-cell-select-all"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-cell-select-all icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-cell-select-all icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-delete-column</td>
+                <td><i class="icon-table-delete-column"></i></td>
+                <td><code>&lt;i class="icon-table-delete-column"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-delete-column icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-delete-column icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-delete-row</td>
+                <td><i class="icon-table-delete-row"></i></td>
+                <td><code>&lt;i class="icon-table-delete-row"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-delete-row icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-delete-row icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-delete-table</td>
+                <td><i class="icon-table-delete-table"></i></td>
+                <td><code>&lt;i class="icon-table-delete-table"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-delete-table icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-delete-table icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-insert-column-after</td>
+                <td><i class="icon-table-insert-column-after"></i></td>
+                <td><code>&lt;i class="icon-table-insert-column-after"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-insert-column-after icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-insert-column-after icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-insert-column-before</td>
+                <td><i class="icon-table-insert-column-before"></i></td>
+                <td><code>&lt;i class="icon-table-insert-column-before"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-insert-column-before icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-insert-column-before icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-insert-row-above</td>
+                <td><i class="icon-table-insert-row-above"></i></td>
+                <td><code>&lt;i class="icon-table-insert-row-above"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-insert-row-above icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-insert-row-above icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-insert-row-after</td>
+                <td><i class="icon-table-insert-row-after"></i></td>
+                <td><code>&lt;i class="icon-table-insert-row-after"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-insert-row-after icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-insert-row-after icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-left-header</td>
+                <td><i class="icon-table-left-header"></i></td>
+                <td><code>&lt;i class="icon-table-left-header"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-left-header icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-left-header icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-merge-cells</td>
+                <td><i class="icon-table-merge-cells"></i></td>
+                <td><code>&lt;i class="icon-table-merge-cells"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-merge-cells icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-merge-cells icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-row-properties</td>
+                <td><i class="icon-table-row-properties"></i></td>
+                <td><code>&lt;i class="icon-table-row-properties"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-row-properties icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-row-properties icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-split-cells</td>
+                <td><i class="icon-table-split-cells"></i></td>
+                <td><code>&lt;i class="icon-table-split-cells"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-split-cells icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-split-cells icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table-top-header</td>
+                <td><i class="icon-table-top-header"></i></td>
+                <td><code>&lt;i class="icon-table-top-header"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table-top-header icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table-top-header icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-table</td>
+                <td><i class="icon-table"></i></td>
+                <td><code>&lt;i class="icon-table"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-table icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-table icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-tag</td>
+                <td><i class="icon-tag"></i></td>
+                <td><code>&lt;i class="icon-tag"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-tag icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-tag icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-target</td>
+                <td><i class="icon-target"></i></td>
+                <td><code>&lt;i class="icon-target"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-target icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-target icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-background-color</td>
+                <td><i class="icon-text-background-color"></i></td>
+                <td><code>&lt;i class="icon-text-background-color"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-background-color icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-background-color icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-centered</td>
+                <td><i class="icon-text-centered"></i></td>
+                <td><code>&lt;i class="icon-text-centered"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-centered icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-centered icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-color</td>
+                <td><i class="icon-text-color"></i></td>
+                <td><code>&lt;i class="icon-text-color"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-color icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-color icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-direction-ltr</td>
+                <td><i class="icon-text-direction-ltr"></i></td>
+                <td><code>&lt;i class="icon-text-direction-ltr"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-direction-ltr icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-direction-ltr icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-direction-rtl</td>
+                <td><i class="icon-text-direction-rtl"></i></td>
+                <td><code>&lt;i class="icon-text-direction-rtl"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-direction-rtl icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-direction-rtl icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-end</td>
+                <td><i class="icon-text-end"></i></td>
+                <td><code>&lt;i class="icon-text-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-left</td>
+                <td><i class="icon-text-left"></i></td>
+                <td><code>&lt;i class="icon-text-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-right</td>
+                <td><i class="icon-text-right"></i></td>
+                <td><code>&lt;i class="icon-text-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-start</td>
+                <td><i class="icon-text-start"></i></td>
+                <td><code>&lt;i class="icon-text-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-subscript</td>
+                <td><i class="icon-text-subscript"></i></td>
+                <td><code>&lt;i class="icon-text-subscript"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-subscript icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-subscript icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text-superscript</td>
+                <td><i class="icon-text-superscript"></i></td>
+                <td><code>&lt;i class="icon-text-superscript"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text-superscript icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text-superscript icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-text</td>
+                <td><i class="icon-text"></i></td>
+                <td><code>&lt;i class="icon-text"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-text icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-text icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-textarea</td>
+                <td><i class="icon-textarea"></i></td>
+                <td><code>&lt;i class="icon-textarea"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-textarea icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-textarea icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-timer</td>
+                <td><i class="icon-timer"></i></td>
+                <td><code>&lt;i class="icon-timer"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-timer icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-timer icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-toggle-end</td>
+                <td><i class="icon-toggle-end"></i></td>
+                <td><code>&lt;i class="icon-toggle-end"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-toggle-end icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-toggle-end icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-toggle-left</td>
+                <td><i class="icon-toggle-left"></i></td>
+                <td><code>&lt;i class="icon-toggle-left"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-toggle-left icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-toggle-left icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-toggle-right</td>
+                <td><i class="icon-toggle-right"></i></td>
+                <td><code>&lt;i class="icon-toggle-right"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-toggle-right icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-toggle-right icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-toggle-start</td>
+                <td><i class="icon-toggle-start"></i></td>
+                <td><code>&lt;i class="icon-toggle-start"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-toggle-start icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-toggle-start icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-trash</td>
+                <td><i class="icon-trash"></i></td>
+                <td><code>&lt;i class="icon-trash"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-trash icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-trash icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-trouble</td>
+                <td><i class="icon-trouble"></i></td>
+                <td><code>&lt;i class="icon-trouble"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-trouble icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-trouble icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-twitter-boxed</td>
+                <td><i class="icon-twitter-boxed"></i></td>
+                <td><code>&lt;i class="icon-twitter-boxed"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-twitter-boxed icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-twitter-boxed icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-twitter</td>
+                <td><i class="icon-twitter"></i></td>
+                <td><code>&lt;i class="icon-twitter"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-twitter icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-twitter icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-unarchive</td>
+                <td><i class="icon-unarchive"></i></td>
+                <td><code>&lt;i class="icon-unarchive"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-unarchive icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-unarchive icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-underline</td>
+                <td><i class="icon-underline"></i></td>
+                <td><code>&lt;i class="icon-underline"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-underline icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-underline icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-unlock</td>
+                <td><i class="icon-unlock"></i></td>
+                <td><code>&lt;i class="icon-unlock"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-unlock icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-unlock icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-unmuted</td>
+                <td><i class="icon-unmuted"></i></td>
+                <td><code>&lt;i class="icon-unmuted"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-unmuted icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-unmuted icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-unpublish</td>
+                <td><i class="icon-unpublish"></i></td>
+                <td><code>&lt;i class="icon-unpublish"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-unpublish icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-unpublish icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-unpublished</td>
+                <td><i class="icon-unpublished"></i></td>
+                <td><code>&lt;i class="icon-unpublished"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-unpublished icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-unpublished icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-updown</td>
+                <td><i class="icon-updown"></i></td>
+                <td><code>&lt;i class="icon-updown"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-updown icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-updown icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-upload</td>
+                <td><i class="icon-upload"></i></td>
+                <td><code>&lt;i class="icon-upload"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-upload icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-upload icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-user-add</td>
+                <td><i class="icon-user-add"></i></td>
+                <td><code>&lt;i class="icon-user-add"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-user-add icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-user-add icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-user</td>
+                <td><i class="icon-user"></i></td>
+                <td><code>&lt;i class="icon-user"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-user icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-user icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-video-camera-off</td>
+                <td><i class="icon-video-camera-off"></i></td>
+                <td><code>&lt;i class="icon-video-camera-off"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-video-camera-off icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-video-camera-off icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-video-camera</td>
+                <td><i class="icon-video-camera"></i></td>
+                <td><code>&lt;i class="icon-video-camera"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-video-camera icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-video-camera icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-video</td>
+                <td><i class="icon-video"></i></td>
+                <td><code>&lt;i class="icon-video"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-video icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-video icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-warning-borderless</td>
+                <td><i class="icon-warning-borderless"></i></td>
+                <td><code>&lt;i class="icon-warning-borderless"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-warning-borderless icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-warning-borderless icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-warning</td>
+                <td><i class="icon-warning"></i></td>
+                <td><code>&lt;i class="icon-warning"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-warning icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-warning icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-windows</td>
+                <td><i class="icon-windows"></i></td>
+                <td><code>&lt;i class="icon-windows"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-windows icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-windows icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-wordpress</td>
+                <td><i class="icon-wordpress"></i></td>
+                <td><code>&lt;i class="icon-wordpress"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-wordpress icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-wordpress icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-x</td>
+                <td><i class="icon-x"></i></td>
+                <td><code>&lt;i class="icon-x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-x icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-x icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-zipped</td>
+                <td><i class="icon-zipped"></i></td>
+                <td><code>&lt;i class="icon-zipped"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-zipped icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-zipped icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-zoom-in</td>
+                <td><i class="icon-zoom-in"></i></td>
+                <td><code>&lt;i class="icon-zoom-in"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-zoom-in icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-zoom-in icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+            <tr>
+                <td>icon-zoom-out</td>
+                <td><i class="icon-zoom-out"></i></td>
+                <td><code>&lt;i class="icon-zoom-out"&gt;&lt;/i&gt;</code></td>
+                <td><i class="icon-zoom-out icon-Solid"></i></td>
+                <td><code>&lt;i class="icon-zoom-out icon-Solid"&gt;&lt;/i&gt;</code></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<hr>
+
+<section id="License">
+  <h3>MIT License:</h3>
+  <p>Created by: 2024 Corey Stroeder  <a href="https://www.relearning.ca" target="_blank">Relearning.ca</a></p>
+  <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+  <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+  <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+</section>
